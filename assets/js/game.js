@@ -60,12 +60,15 @@ console.log(rightGuess)
 console.log(remainingLetters)
 
 
-// Limit input to one press per key, alphabet only
-//  Guess === letters
-//    
-//
+// Limit input to only letters  (guess==letters)??
+// Limit letter press to once per key 
+// Reset function
+// Add win/loss function
+// make shit look right
+//   
 // 
-// reset game
+// 
+// 
 
 
 
