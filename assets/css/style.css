@@ -18,9 +18,16 @@ body{
 
 }
 
+h3{
+    text-shadow: 0 0 3px white;
+    text-decoration: underline;
+
+
+}
 .wrongGuess{
     color: red;
     text-shadow: 0 0 3px black;
+    border: 2px black dashed;
 
 }
 
@@ -39,7 +46,28 @@ body{
 
 }
 
-h3{
-    text-shadow: 0 0 3px white;
+#hulk{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -5;
 
 }
+
+#tleft{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -5;
+    height: 25%;
+
+}
+#tright{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -5;
+    height: 25%;
+
+}
+
